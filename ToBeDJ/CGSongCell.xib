@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CGSongCell" rowHeight="83" id="CyO-Qx-u28" customClass="CGSongCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CyO-Qx-u28" id="VGV-Gf-AEw">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7D-us-iLK" customClass="MarqueeLabel">
+                        <rect key="frame" x="54" y="5" width="212" height="44"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Htj-xS-tHW" customClass="MarqueeLabel">
+                        <rect key="frame" x="54" y="40" width="93" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hd8-GU-GWQ">
+                        <rect key="frame" x="155" y="39" width="9" height="14"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egx-ha-gle" customClass="MarqueeLabel">
+                        <rect key="frame" x="155" y="40" width="94" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBf-ym-A8k">
+                        <rect key="frame" x="269" y="17" width="40" height="40"/>
+                        <rect key="contentStretch" x="0.0" y="0.0" width="0.29999999999999966" height="1"/>
+                        <state key="normal" title="Button" image="like-button-salmon-pink.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="upVote:" destination="CyO-Qx-u28" eventType="touchUpInside" id="hCH-bc-oCn"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CA-Ua-KNs">
+                        <rect key="frame" x="8" y="17" width="40" height="40"/>
+                        <rect key="contentStretch" x="0.0" y="0.0" width="0.29999999999999966" height="1"/>
+                        <state key="normal" title="Button" image="dislike-button-dark-blue.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="downVote:" destination="CyO-Qx-u28" eventType="touchUpInside" id="Ckg-ll-ITS"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="albumName" destination="egx-ha-gle" id="jSA-Yg-f81"/>
+                <outlet property="albumNameLabel" destination="egx-ha-gle" id="BzT-zq-KUt"/>
+                <outlet property="artistLabel" destination="Htj-xS-tHW" id="ohv-BI-uqM"/>
+                <outlet property="artistName" destination="Htj-xS-tHW" id="LrF-zP-GgT"/>
+                <outlet property="downVoteButton" destination="0CA-Ua-KNs" id="PqU-ZC-CHJ"/>
+                <outlet property="songNameLabel" destination="p7D-us-iLK" id="aWN-g1-NIM"/>
+                <outlet property="songTitle" destination="p7D-us-iLK" id="cfl-6F-EYW"/>
+                <outlet property="upVoteButton" destination="VBf-ym-A8k" id="La1-4k-7SQ"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dislike-button-dark-blue.png" width="128" height="128"/>
+        <image name="like-button-salmon-pink.png" width="128" height="128"/>
+    </resources>
+</document>

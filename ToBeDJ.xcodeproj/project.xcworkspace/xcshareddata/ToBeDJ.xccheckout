@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E468815E-EF85-459D-9863-AEFAC40DEBCB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ToBeDJ</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E52F9F5E-CDF5-4A05-9CB0-861D0852140F</key>
+		<string>ssh://projects.git.vip.facebook.com/data/gitrepos/fbobjc.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Users/jukebox/ToBeDJ/ToBeDJ.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E52F9F5E-CDF5-4A05-9CB0-861D0852140F</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://projects.git.vip.facebook.com/data/gitrepos/fbobjc.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E52F9F5E-CDF5-4A05-9CB0-861D0852140F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E52F9F5E-CDF5-4A05-9CB0-861D0852140F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>fbobjc</string>
+		</dict>
+	</array>
+</dict>
+</plist>
