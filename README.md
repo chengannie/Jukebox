@@ -8,15 +8,13 @@ Jukebox is an iOS app that makes collaborative music playing easier when there's
 <tr>
 
 <td>
-![](https://i.imgur.com/VHKAvwg.png?1?9264)
-
-The login screen.
+<img src="https://i.imgur.com/VHKAvwg.png?1?9264">
+<p>The login screen.</p>
 </td>
 
 <td>
-![](https://i.imgur.com/XxFGJPI.png?1?6247)
-
-A user is greeted with a list of existing rooms. These rooms are sorted based on location. A user can join an existing room as a "listener", or they can create a new room and serve as a "DJ".
+<img src="https://i.imgur.com/XxFGJPI.png?1?6247">
+<p>A user is greeted with a list of existing rooms. These rooms are sorted based on location. A user can join an existing room as a "listener", or they can create a new room and serve as a "DJ".</p>
 </td>
 
 </tr>
@@ -24,15 +22,13 @@ A user is greeted with a list of existing rooms. These rooms are sorted based on
 <tr>
 
 <td>
-![](https://i.imgur.com/7spg7Pc.png?1?6467)
-
-The DJ can start playing music from his/her personal iPod library and then plug his/her phone into the speakers.
+<img src="https://i.imgur.com/7spg7Pc.png?1?6467">
+<p>The DJ can start playing music from his/her personal iPod library and then plug his/her phone into the speakers.</p>
 </td>
 
 <td>
-![](https://i.imgur.com/3ipvhQM.png?1?9248)
-
-The listener can see the currently playing song, the song that's coming up next, and other songs from the DJ's playlist. Each listener can like or dislike a song in the "song bucket". The song with the most votes will be moved to the "up next" slot once the current song is done playing.
+<img src="https://i.imgur.com/3ipvhQM.png?1?9248">
+<p>The listener can see the currently playing song, the song that's coming up next, and other songs from the DJ's playlist. Each listener can like or dislike a song in the "song bucket". The song with the most votes will be moved to the "up next" slot once the current song is done playing.</p>
 </td>
 
 </tr>
